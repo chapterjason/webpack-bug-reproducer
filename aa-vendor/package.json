@@ -1,0 +1,14 @@
+{
+  "name": "aa-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "luxon": "^1.25.0",
+    "aa-config": "link:../aa-config"
+  }
+}
